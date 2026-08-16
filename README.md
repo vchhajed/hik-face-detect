@@ -1,5 +1,7 @@
 # hik-face-detect
 
+[![GitHub repo](https://img.shields.io/badge/GitHub-vchhajed%2Fhik--face--detect-blue?logo=github)](https://github.com/vchhajed/hik-face-detect)
+
 Run edge face detection against a Hikvision IP camera or DVR — either a live
 stream, or recorded DVR footage — and fire a notification (Telegram and/or a
 dashboard) when a face is detected.
@@ -32,7 +34,7 @@ your home network (or reachable via VPN) and use `rtsp` mode — it's the
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/vchhajed/hik-face-detect.git
 cd hik-face-detect
 python3 -m venv venv
 source venv/bin/activate
